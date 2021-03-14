@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	"name": "Beautimark",
+	"description": "Bookmark Management UI",
+	"version": "0.0.1",
+	"icons": {
+		"64": "icons/icon.png"
+	},
+
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"browser_action": {
+		"browser_style": true,
+		"default_icon": {
+			"48": "icons/icon.png"
+		},
+		"default_title": "Border Google"
+	},
+
+	"permissions": [
+		"bookmarks"
+	]
+}

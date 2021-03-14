@@ -1,0 +1,50 @@
+:root {
+	font-size: 20px;
+	background-color: rgb(252, 231, 193);
+	border: none;
+	padding: 15px;
+	margin: 0;
+}
+h2 {
+	font-size: 2rem;
+	text-align: center;
+}
+button {
+	font-size: 1.2em;
+	border: none;
+	background-color: rgb(209, 140, 12);
+	font-weight: bold;
+	color: white;
+	padding: 10px 0;
+	cursor: pointer;
+	text-align: center;
+}
+button:hover {
+	background-color: rgb(138, 79, 12);
+}
+p {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.bookmark-container {
+	background-color: white;
+	border-radius: 5px;
+	border: 2px solid darkgray;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.bookmark-container > h3 {
+	font-size: 1.2em;
+	margin: 0 0 10px 0;
+}
+
+.bookmark-container > a {
+	font-size: 0.8em;
+	display: block;
+}
+
+.bookmark-container:not(:last-child) {
+	margin-bottom: 15px;
+}
