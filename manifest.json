@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
-	"name": "Beautimark",
-	"description": "Bookmark Management UI",
+	"name": "beautimark",
+	"description": "Bookmark Management Extension",
 	"version": "0.0.1",
 	"icons": {
 		"64": "icons/icon.png"

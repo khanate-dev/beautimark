@@ -1,8 +1,8 @@
 {
-	"name": "firefox-extension",
+	"name": "beautimark",
 	"version": "1.0.0",
-	"description": "",
-	"main": "content_script.js",
+	"description": "Bookmark Management Extension",
+	"main": "background.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
